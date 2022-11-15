@@ -5,7 +5,7 @@ from kafka.errors import KafkaError
 from kafka.future import log
 
 if __name__ == "__main__":
-    producer = KafkaProducer(bootstrap_servers='localhost: 9092')
+    producer = KafkaProducer(bootstrap_servers='10.1.56.187: 9192')
 
 future = producer.send('my-topic', b"test")
 

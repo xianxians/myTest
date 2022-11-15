@@ -31,7 +31,3 @@ dd = DrugDog()
 daqiu = Person()
 daqiu.work_with_dog(ad)
 daqiu.work_with_dog(dd)
-
-
-
-
